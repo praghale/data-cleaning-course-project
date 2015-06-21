@@ -14,9 +14,9 @@ test.data<-cbind(y.test,subject.test,x.test)
 
 
 #Import training dataset and rename some variables
-x.train<-read.table("/Users/praghale/Documents/Coursera/UCI HAR Dataset/train/X_train.txt")
-y.train<-read.table("/Users/praghale/Documents/Coursera/UCI HAR Dataset/train/y_train.txt")
-subject.train<-read.table("/Users/praghale/Documents/Coursera/UCI HAR Dataset/train/subject_train.txt")
+x.train<-read.table("UCI HAR Dataset/train/X_train.txt")
+y.train<-read.table("UCI HAR Dataset/train/y_train.txt")
+subject.train<-read.table("UCI HAR Dataset/train/subject_train.txt")
 y.train<-rename(y.train,label=V1)
 subject.train<-rename(subject.train,subject=V1)
 train.data<-cbind(y.train,subject.train,x.train)
