@@ -1,5 +1,8 @@
-#load data.table
+#Install and load data.table and dplyr
+install.packages("data.table")
+install.packages("dplyr")
 library(data.table)
+library(dplyr)
 
 #Set working directory
 setwd("/Users/praghale/Documents/Coursera")
