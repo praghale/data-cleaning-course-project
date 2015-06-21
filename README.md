@@ -1,3 +1,4 @@
+#Readme
 
 For this project we have used data collected from the accelerometers from the Samsung Galaxy S smartphone[1]. The goal of this project was to write an R script that would consolidate the training and test datasets and create a summary dataset with the average value for all variables of interest. 
 
